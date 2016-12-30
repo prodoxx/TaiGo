@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info_outline_24dp.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.1/res/drawable-anydpi-v21/ic_info_outline_24dp.xml"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info_outline_24dp_selected.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.1/res/drawable-anydpi-v21/ic_info_outline_24dp_selected.xml"
+    }
+]

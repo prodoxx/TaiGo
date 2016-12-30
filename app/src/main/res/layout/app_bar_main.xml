@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.reggieescobar.taigo.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/content_main" />
+
+
+    <!-- TOP PickUp/Destination Layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="60dp"
+        android:layout_height="150dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/box_round_corners"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+
+                <!-- Pick Up Layout -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/primary_border_bottom"
+                    android:id="@+id/pickup_layout"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/pickup_text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="NTHU"
+                        android:padding="2dp"
+                        android:textStyle="bold"
+
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- Destination Layout -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/destination_layout"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/destination_text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Big City"
+                        android:padding="2dp"
+                        android:textStyle="bold"
+
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </FrameLayout>
+
+    <!-- END TOP PickUp/Destination Layout -->
+
+
+    <!-- Bottom Area Statistics Layout -->
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="10dp"
+        android:clickable="true"
+        android:layout_height="@dimen/area_stats_height">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="#CCE3E3"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:layout_height="38dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/pin_action_message"
+                    android:text="Get a ride now!"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="#CCFFFFFF"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="left|center"
+                    android:layout_height="match_parent">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:orientation="horizontal"
+                       android:gravity="left|center"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-light"
+                           android:textColor="@android:color/black"
+                           android:textSize="18dp"
+                           android:text="Estimate:"
+                           android:layout_marginRight="10dp"
+                           android:id="@+id/textView2" />
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-light"
+                           android:textColor="@android:color/black"
+                           android:textSize="18dp"
+                           android:text="180NTD"
+                           android:id="@+id/textView5" />
+
+                   </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="right|center"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:text="10mil"
+                        android:id="@+id/textView3" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:visibility="gone"
+        android:id="@+id/fab_btn_layout"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_gravity="bottom|right">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/go_fab_btn"
+            android:src="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/go_text"
+            android:textStyle="bold"
+            android:elevation="16dp"
+            android:id="@+id/fab_btn_text"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+
+
+    <!--  END of Area Statistics Layout -->
+
+
+    <!-- The Fake Map Marker -->
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/select_point_marker"
+            android:visibility="gone"
+            android:src="@drawable/secondary_marker"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

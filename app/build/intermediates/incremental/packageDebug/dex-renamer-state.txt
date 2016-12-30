@@ -1,0 +1,7 @@
+#Sat Dec 31 00:20:11 CST 2016
+base.0=/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_466b2602b8feb63e36db58102836e9818f7e87a0
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_592317a7e28e521f0dc1cf65f04518983d86de32/classes.dex
+base.1=/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_592317a7e28e521f0dc1cf65f04518983d86de32
+file.0=/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_466b2602b8feb63e36db58102836e9818f7e87a0/classes.dex

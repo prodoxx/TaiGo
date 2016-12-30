@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "117349537735",
+    "firebase_url": "https://taigo-2015a.firebaseio.com",
+    "project_id": "taigo-2015a",
+    "storage_bucket": "taigo-2015a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117349537735:android:15ed71bacc1b8b43",
+        "android_client_info": {
+          "package_name": "com.reggieescobar.taigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117349537735-ql3617gtnjgmv579k8marf2q7394vden.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reggieescobar.taigo",
+            "certificate_hash": "B696BA5606D435779BC6BA7D57F2A19E2639AA50"
+          }
+        },
+        {
+          "client_id": "117349537735-aqprb9pbkmbqecslmce1najv5488krho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwe_7Hscs6edUoFq3r0yFc1O-EEiMWv64"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117349537735-aqprb9pbkmbqecslmce1najv5488krho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

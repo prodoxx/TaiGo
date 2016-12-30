@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_info_outline_24dp.png",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.1/res/drawable-ldpi-v4/ic_info_outline_24dp.png"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_info_outline_24dp_selected.png",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.1/res/drawable-ldpi-v4/ic_info_outline_24dp_selected.png"
+    }
+]

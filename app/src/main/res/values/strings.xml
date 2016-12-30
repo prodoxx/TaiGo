@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TaiGo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="map_access_token">pk.eyJ1IjoicHJvZG94eCIsImEiOiJiNmZhYmFjMzllZDdmNzE2MTIxMzlhNGUyN2ViYzhiOCJ9.6St4mHFcc7CV60hxlVsZXQ</string>
+    <string name="map_style"> mapbox://styles/mapbox/streets-v10</string>
+
+    <string name="area_statistics_text">Area Statistics</string>
+    <string name="pickup_text">Pick Up</string>
+    <string name="destination_text">Destination</string>
+    <string name="go_text">GO!</string>
+    <string name="ok_text">OK</string>
+
+    <string name="choose_dropoff_message">Choose your drop-off above.</string>
+    <string name="choose_pickup_message">Choose your pickup above.</string>
+    <string name="book_a_ride_message">Tap Go! to get a ride.</string>
+</resources>
