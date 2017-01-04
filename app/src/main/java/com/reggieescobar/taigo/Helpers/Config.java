@@ -10,4 +10,28 @@ public class Config {
         PICKUP,
         DESTINATION
     }
+
+    public final static String TRIPS_REF = "trips/";
+    public final static String USER_TRIPS_REF = "userTrips/";
+    public final static String TRIP_DRIVER_TRACKER_REF = "tripDriverTracking/";
+
+
+
+    public final static int calculateFareEstimate(double distanceInMeters){
+        int fare = 75;
+        int rate = 20;
+
+        double distanceInKm = distanceInMeters * 0.001;
+
+        if(distanceInKm >= 1){
+            fare += rate * distanceInKm;
+        }
+
+
+        return fare;
+    }
+
+
+
+
 }

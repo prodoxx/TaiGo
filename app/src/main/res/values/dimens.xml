@@ -15,10 +15,13 @@
 
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="area_stats_height">104dp</dimen>
+    <dimen name="area_trip_info_height">120dp</dimen>
 
     <dimen name="leftBigMargin">100dp</dimen>
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="avatar_size">48dp</dimen>
+
+    <dimen name="label_spacing">10dp</dimen>
 
 </resources>

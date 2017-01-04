@@ -5,37 +5,73 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="79463969252586"
+    timestamp="171481213000419"
     token="-1260613773290568393"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="586" />
+        duration="1900" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="125" />
+        duration="225" />
     <task
         name="verifier"
-        duration="12" />
+        duration="25" />
 
+    <artifact
+        location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
     <artifact
         location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="79281061239574"
+        timestamp="167207966709113"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="79463969252586"
+        timestamp="171481213000419"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
         <artifact
             location="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
             type="DEX" />

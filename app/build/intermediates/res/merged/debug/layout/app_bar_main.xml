@@ -23,7 +23,8 @@
     </android.support.design.widget.AppBarLayout>
 
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_main"
+        android:id="@+id/include" />
 
 
     <!-- TOP PickUp/Destination Layout -->
@@ -51,7 +52,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:orientation="vertical"
-                    android:background="@drawable/primary_border_bottom"
+                    android:background="@drawable/grey_border_bottom"
                     android:id="@+id/pickup_layout"
                     android:layout_height="wrap_content">
                     <TextView
@@ -59,14 +60,18 @@
                         android:text="@string/pickup_text"
                         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                         android:layout_height="wrap_content" />
+
                     <TextView
                         android:layout_width="match_parent"
-                        android:text="NTHU"
+                        android:id="@+id/pickup_text"
                         android:padding="2dp"
                         android:textStyle="bold"
-
+                        android:hint="Tap here!"
                         android:textColor="@android:color/black"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:maxLines="1" />
                 </LinearLayout>
 
                 <!-- Destination Layout -->
@@ -75,6 +80,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical"
                     android:layout_marginTop="6dp"
+                    android:background="@drawable/orange_border_bottom"
                     android:id="@+id/destination_layout"
                     android:layout_height="wrap_content">
                     <TextView
@@ -84,10 +90,13 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:layout_width="match_parent"
-                        android:text="Big City"
+                        android:id="@+id/dest_text"
                         android:padding="2dp"
                         android:textStyle="bold"
-
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:hint="Tap here!"
                         android:textColor="@android:color/black"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
@@ -168,8 +177,8 @@
                            android:fontFamily="sans-serif-light"
                            android:textColor="@android:color/black"
                            android:textSize="18dp"
-                           android:text="180NTD"
-                           android:id="@+id/textView5" />
+                           android:text="N/A"
+                           android:id="@+id/trip_fare_estimate" />
 
                    </LinearLayout>
                 </RelativeLayout>
@@ -185,8 +194,8 @@
                         android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/black"
                         android:textSize="16dp"
-                        android:text="10mil"
-                        android:id="@+id/textView3" />
+
+                        android:id="@+id/trip_distance_text" />
                 </RelativeLayout>
             </RelativeLayout>
         </LinearLayout>
@@ -229,9 +238,8 @@
     <!-- The Fake Map Marker -->
     <FrameLayout
         android:layout_gravity="center"
-        android:layout_width="48dp"
-        android:layout_marginBottom="40dp"
-        android:layout_height="48dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -241,7 +249,15 @@
             android:layout_height="wrap_content" />
     </FrameLayout>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Click Me"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/button2" />
 
 
 </android.support.design.widget.CoordinatorLayout>

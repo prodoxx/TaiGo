@@ -2,6 +2,8 @@ package com.reggieescobar.taigo.Helpers;
 
 import android.graphics.Bitmap;
 
+import com.reggieescobar.taigo.Models.MyAddress;
+
 /*
 import livemoments.io.test.Objects.MyAddress;
 import livemoments.io.test.Objects.MyNotification;
@@ -21,6 +23,10 @@ public class AppResultListener {
     public void onSuccess(User user){} */
 
     public void onError(Exception error){}
+   // public void onSuccess(MyAddress address) {}
+
+
+    ///public void onSuccess(String myAddress){}
 
     public void onImageFetchSuccess(Bitmap image) {}
     public void onImageFetchSuccess(byte[] data) {}

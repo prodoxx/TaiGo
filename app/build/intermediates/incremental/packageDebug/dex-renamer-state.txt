@@ -1,4 +1,4 @@
-#Sat Dec 31 00:20:11 CST 2016
+#Wed Jan 04 17:54:23 CST 2017
 base.0=/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_466b2602b8feb63e36db58102836e9818f7e87a0
 renamed.1=classes.dex
 renamed.0=classes2.dex

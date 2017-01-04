@@ -3,192 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_2bfe29d3169ec3e9706542e7fdf1db2b55b8fd29/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_369191d935a99c4df11b0a71116d51c1d5474840/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/jp.wasabeef/picasso-transformations/2.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3fb1fe781490fcf9fa47ee2c268279f777266a6a">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-picasso-transformations-2.1.0_cf7005f74d94c0b221addf189ec609c6ef31bcac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="9ff04cc3470178a44512624036751a803418c2ca">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_89bd0ae705bb07277e31befa16522b49daea4c91/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_475281f504191b38b62c29eb1175344b57106c1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_7c055eb41463139aca04ef3f80980d7ad2e3e139/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d386b391159aff310c38d98de4914c70658c15a4">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mapbox.mapboxsdk-mapbox-android-sdk-4.2.1_b1e32535c187ab42d4e136a57a73cc3ea20ef28f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.3.1_f8c7b9d9c6bf0717e18be942304447d163ae0682/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_566553df29e1ac146437009c5f0bce13516a1cbb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-java-services/1.3.1/6bda5f2cf57af827c1a9703a77ed9e451e6d6d25/mapbox-java-services-1.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="6bda5f2cf57af827c1a9703a77ed9e451e6d6d25">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/mapbox-java-services-1.3.1_27ac0f8111cb7e203f447c9ece39bdfb4d68d231/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="190a642ba16d1421296a4d794606279b80039c59">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_5513e11dcff23811213b7d0c8cc3bf0599e21fc3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_38c085f50f08111f8207c4d94a48844ca04e93d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapzen.android/lost/1.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c9d0d2b21baebf49c526d857991e2d48f30fcb00">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mapzen.android-lost-1.1.1_80cf0207d52694bc9035c536902024a270fd87e5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d71adfc42061f03876abcbc45cf49379dab128bc">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_592317a7e28e521f0dc1cf65f04518983d86de32/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d98554d9225cbe0663d0572099b060bada4fd3f0">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_466b2602b8feb63e36db58102836e9818f7e87a0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_5256ef691fb91a21fd22a9d9ebe87b489c2aef69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f2a7087abc5b42967f0fe65c6de15bba9a79fc04/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_bc106f43bc788a4ff7003d5f43294cacda78c685/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_9b02ffb439aeeb91e29a8f7c17f19eedc5dd442e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
         <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_a1fc341d1656a22f28a032ebc2bd3255b38a3c9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_2bfe29d3169ec3e9706542e7fdf1db2b55b8fd29/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,6 +57,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_369191d935a99c4df11b0a71116d51c1d5474840/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -243,6 +81,24 @@
         revision="24.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_6e20540e38062697366566fdc23fcd3a4e71c024/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/jp.wasabeef/picasso-transformations/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3fb1fe781490fcf9fa47ee2c268279f777266a6a">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-picasso-transformations-2.1.0_cf7005f74d94c0b221addf189ec609c6ef31bcac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_89bd0ae705bb07277e31befa16522b49daea4c91/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,12 +120,84 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-geocoder/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d2acfbe514def423c230d346e79d7698bbdd02f1">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mapbox.mapboxsdk-mapbox-android-geocoder-1.0.0_9c36f8b1ef2d735f751372075dd7cb2de9a1f2d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_475281f504191b38b62c29eb1175344b57106c1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_7c055eb41463139aca04ef3f80980d7ad2e3e139/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d386b391159aff310c38d98de4914c70658c15a4">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mapbox.mapboxsdk-mapbox-android-sdk-4.2.1_b1e32535c187ab42d4e136a57a73cc3ea20ef28f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
         <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_cb35a55d4a1a515eff241a050a647338c77a88be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.3.1_f8c7b9d9c6bf0717e18be942304447d163ae0682/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_566553df29e1ac146437009c5f0bce13516a1cbb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-java-services/1.3.1/6bda5f2cf57af827c1a9703a77ed9e451e6d6d25/mapbox-java-services-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6bda5f2cf57af827c1a9703a77ed9e451e6d6d25">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/mapbox-java-services-1.3.1_27ac0f8111cb7e203f447c9ece39bdfb4d68d231/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -318,6 +246,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_5513e11dcff23811213b7d0c8cc3bf0599e21fc3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -336,12 +273,84 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_38c085f50f08111f8207c4d94a48844ca04e93d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapzen.android/lost/1.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c9d0d2b21baebf49c526d857991e2d48f30fcb00">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mapzen.android-lost-1.1.1_80cf0207d52694bc9035c536902024a270fd87e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-services/1.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8c676668c0363bfc80e4a4a2086fae420777efaa">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mapbox.mapboxsdk-mapbox-android-services-1.3.1_4663edc0726222c4f2dfd0d7e313316bc5f0c738/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.0-beta2_545f4c864365efb335c4ec73d37509843f2e0d60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
         <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_bbc64906de3ec0033ba117f8dc23c154de1cdb06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.0-beta2_9df103b26669e7bcf74a5a7e0f786fd6279077c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3ac053cfdc3b623ddfce2163e538bcc4bea1a578">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_592317a7e28e521f0dc1cf65f04518983d86de32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d98554d9225cbe0663d0572099b060bada4fd3f0">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_466b2602b8feb63e36db58102836e9818f7e87a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_5256ef691fb91a21fd22a9d9ebe87b489c2aef69/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,12 +363,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f2a7087abc5b42967f0fe65c6de15bba9a79fc04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_44d52d22c30961bf739245a1d1f83f4689d12878/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_bc106f43bc788a4ff7003d5f43294cacda78c685/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.5.0_ea489dfa2330fadf6914380fa2917c1ef89ecac5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_9b02ffb439aeeb91e29a8f7c17f19eedc5dd442e/classes.dex" />
     </item>
 
 </items>
