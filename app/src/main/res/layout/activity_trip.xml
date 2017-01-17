@@ -43,16 +43,16 @@
                <Button
                    android:layout_width="match_parent"
                    android:text="@string/start_trip_text"
+                   android:visibility="gone"
                    android:background="@color/colorAccentOpacity"
-                   android:id="@+id/startTripButton"
-
+                   android:id="@+id/start_trip_button"
                    style="@style/Widget.AppCompat.Button.Colored"
                    android:layout_height="wrap_content" />
 
                <Button
                    android:layout_width="match_parent"
                    android:text="@string/end_trip_text"
-                   android:id="@+id/endTripButton"
+                   android:id="@+id/end_trip_button"
                    android:visibility="gone"
                    android:background="@color/colorWarnOpacity"
                    style="@style/Widget.AppCompat.Button.Colored"
@@ -80,15 +80,18 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:gravity="center"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:id="@+id/main_status_layout"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                    android:text="@string/awaiting_pickup_text"
+                    android:text="@string/loading_text"
                     android:id="@+id/main_status_text"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
 
             </RelativeLayout>
 
@@ -97,6 +100,7 @@
                 android:layout_width="match_parent"
                 android:orientation="horizontal"
                 android:id="@+id/trip_info_layout"
+                android:visibility="gone"
                 android:layout_height="match_parent">
 
                 <LinearLayout

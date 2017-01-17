@@ -12,6 +12,9 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -32,7 +35,18 @@
 
         <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
 
-        <activity android:name=".TripActivity"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TripActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyTripsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity" android:theme="@style/AppTheme.FullScreenNoActionBar"
+            android:label="@string/title_activity_login" />
     </application>
 
 </manifest>

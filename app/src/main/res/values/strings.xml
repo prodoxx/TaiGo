@@ -4,6 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
+    <string name="action_rest">Reset</string>
 
     <string name="map_access_token">sk.eyJ1IjoicHJvZG94eCIsImEiOiJjaXhnemRwcnAwMDJkMm9tejFtcnJrYTBqIn0.tRQm5NhRC0KNdUxbm7Zm9Q</string>
     <string name="map_style"> mapbox://styles/mapbox/streets-v10</string>
@@ -15,21 +16,26 @@
     <string name="ok_text">OK</string>
     <string name="set_text">SET</string>
 
+    <string name="get_a_ride_message">Get a ride now!</string>
     <string name="choose_dropoff_message">Choose your drop-off above.</string>
     <string name="choose_pickup_message">Choose your pickup above.</string>
     <string name="book_a_ride_message">Tap Go! to get a ride.</string>
+
+    <string name="select_pickup_location_text">select a pickup location</string>
+    <string name="select_destination_location_text">select a destination</string>
 
     <string name="driver_found_text">Driver Found!</string>
     <string name="view_trip_text">View Trip</string>
     <string name="start_trip_text">Start Trip</string>
     <string name="end_trip_text">End Trip</string>
 
-    <!-- Trip Status (Passenger View) -->
+    <!-- Trip Status  -->
 
     <string name="awaiting_pickup_text">Awaiting Driver Pickup...</string>
     <string name="driver_confirm_pickup_text">Driver Confirmed Pickup.</string>
     <string name="driver_confirm_dropout_text">Driver Confirmed Dropout. </string>
     <string name="trip_in_progress_text">Trip in Progress...</string>
+    <string name="trip_has_ended">Trip has Ended.</string>
 
     <string name="status_text">Status: </string>
     <string name="license_number_text">License #: </string>
@@ -37,6 +43,19 @@
     <string name="trip_fare_text">Fare: </string>
 
     <string name="not_available_text">N/A</string>
+
+    <string name="estimate_text">Estimate:</string>
+
+    <string name="loading_text">Loading...</string>
+
+
+    <!--- Menu Strings -->
+
+    <string name="my_trips_menu">My Trips</string>
+    <string name="about_menu">About</string>
+    <string name="title_activity_login">Sign in</string>
+
+
 
 
 </resources>

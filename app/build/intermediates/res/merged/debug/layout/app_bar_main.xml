@@ -23,8 +23,11 @@
     </android.support.design.widget.AppBarLayout>
 
 
+
     <include layout="@layout/content_main"
         android:id="@+id/include" />
+
+
 
 
     <!-- TOP PickUp/Destination Layout -->
@@ -66,7 +69,7 @@
                         android:id="@+id/pickup_text"
                         android:padding="2dp"
                         android:textStyle="bold"
-                        android:hint="Tap here!"
+                        android:hint="@string/select_pickup_location_text"
                         android:textColor="@android:color/black"
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
@@ -96,7 +99,7 @@
                         android:ellipsize="end"
                         android:lines="1"
                         android:maxLines="1"
-                        android:hint="Tap here!"
+                        android:hint="@string/select_destination_location_text"
                         android:textColor="@android:color/black"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
@@ -113,7 +116,13 @@
     <!-- END TOP PickUp/Destination Layout -->
 
 
+
+
+
+
+
     <!-- Bottom Area Statistics Layout -->
+
 
     <FrameLayout
         android:orientation="vertical"
@@ -122,6 +131,7 @@
         android:paddingTop="10dp"
         android:clickable="true"
         android:layout_height="@dimen/area_stats_height">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
@@ -138,7 +148,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:id="@+id/pin_action_message"
-                    android:text="Get a ride now!"
+                    android:text="@string/get_a_ride_message"
                     android:fontFamily="sans-serif-light"
                     android:layout_height="match_parent" />
             </RelativeLayout>
@@ -148,44 +158,71 @@
                 android:background="#CCFFFFFF"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
+
                 android:layout_height="match_parent">
+
+
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/amount_driver_layout"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textAlignment="center"
+                        android:id="@+id/amount_driver_text"
+                        android:textColor="@color/colorPrimary"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+
+
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:gravity="left|center"
+                    android:id="@+id/trip_estimate_info_layout"
+                    android:visibility="gone"
                     android:layout_height="match_parent">
 
-                   <LinearLayout
-                       android:layout_width="match_parent"
-                       android:orientation="horizontal"
-                       android:gravity="left|center"
-                       android:layout_height="match_parent">
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:textStyle="bold"
-                           android:fontFamily="sans-serif-light"
-                           android:textColor="@android:color/black"
-                           android:textSize="18dp"
-                           android:text="Estimate:"
-                           android:layout_marginRight="10dp"
-                           android:id="@+id/textView2" />
 
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:textStyle="bold"
-                           android:fontFamily="sans-serif-light"
-                           android:textColor="@android:color/black"
-                           android:textSize="18dp"
-                           android:text="N/A"
-                           android:id="@+id/trip_fare_estimate" />
 
-                   </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="left|center"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp"
+                            android:text="@string/estimate_text"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/textView2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp"
+                            android:text="@string/not_available_text"
+                            android:id="@+id/trip_fare_estimate" />
+
+                    </LinearLayout>
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:gravity="right|center"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -203,33 +240,6 @@
 
     </FrameLayout>
 
-    <FrameLayout
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:clickable="true"
-        android:visibility="gone"
-        android:id="@+id/fab_btn_layout"
-        android:layout_marginBottom="60dp"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_gravity="bottom|right">
-
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/go_fab_btn"
-            android:src="@android:color/transparent" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/go_text"
-            android:textStyle="bold"
-            android:elevation="16dp"
-            android:id="@+id/fab_btn_text"
-            android:textColor="@android:color/white"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-    </FrameLayout>
 
 
     <!--  END of Area Statistics Layout -->
@@ -249,15 +259,38 @@
             android:layout_height="wrap_content" />
     </FrameLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:text="Click Me"
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:clickable="true"
-        android:layout_height="wrap_content"
         app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="center_vertical|center_horizontal"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:id="@+id/button2" />
+        android:id="@+id/fab_btn_layout"
+        android:visibility="gone"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_gravity="top|left">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:id="@+id/go_fab_btn"
+            android:src="@android:color/transparent"
+
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/go_text"
+            android:textStyle="bold"
+            android:elevation="16dp"
+            android:id="@+id/fab_btn_text"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+
+
 
 
 </android.support.design.widget.CoordinatorLayout>

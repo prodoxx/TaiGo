@@ -32,7 +32,14 @@
                     "endOffset": 450
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 90,
+                        "endOffset": 141
+                    }
                 }
             },
             {
@@ -44,7 +51,14 @@
                     "endOffset": 553
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 102,
+                        "endOffset": 244
+                    }
                 }
             },
             {
@@ -56,7 +70,14 @@
                     "endOffset": 656
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 102,
+                        "endOffset": 347
+                    }
                 }
             },
             {
@@ -68,7 +89,14 @@
                     "endOffset": 761
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 104,
+                        "endOffset": 452
+                    }
                 }
             },
             {
@@ -80,7 +108,14 @@
                     "endOffset": 868
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 457,
+                        "endColumn": 106,
+                        "endOffset": 559
+                    }
                 }
             },
             {
@@ -92,7 +127,14 @@
                     "endOffset": 977
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 564,
+                        "endColumn": 108,
+                        "endOffset": 668
+                    }
                 }
             },
             {
@@ -104,7 +146,14 @@
                     "endOffset": 1086
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 673,
+                        "endColumn": 108,
+                        "endOffset": 777
+                    }
                 }
             },
             {
@@ -116,7 +165,14 @@
                     "endOffset": 1195
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 782,
+                        "endColumn": 108,
+                        "endOffset": 886
+                    }
                 }
             },
             {
@@ -128,7 +184,14 @@
                     "endOffset": 1304
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 108,
+                        "endOffset": 995
+                    }
                 }
             },
             {
@@ -140,7 +203,14 @@
                     "endOffset": 1413
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1000,
+                        "endColumn": 108,
+                        "endOffset": 1104
+                    }
                 }
             },
             {
@@ -152,7 +222,14 @@
                     "endOffset": 1520
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1109,
+                        "endColumn": 106,
+                        "endOffset": 1211
+                    }
                 }
             },
             {
@@ -164,7 +241,14 @@
                     "endOffset": 1623
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1216,
+                        "endColumn": 102,
+                        "endOffset": 1314
+                    }
                 }
             },
             {
@@ -176,7 +260,14 @@
                     "endOffset": 1742
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1319,
+                        "endColumn": 118,
+                        "endOffset": 1433
+                    }
                 }
             },
             {
@@ -189,7 +280,15 @@
                     "endOffset": 1897
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1438,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 1588
+                    }
                 }
             },
             {
@@ -202,7 +301,15 @@
                     "endOffset": 2052
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1593,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1743
+                    }
                 }
             },
             {
@@ -214,7 +321,14 @@
                     "endOffset": 2157
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1748,
+                        "endColumn": 104,
+                        "endOffset": 1848
+                    }
                 }
             },
             {
@@ -226,7 +340,14 @@
                     "endOffset": 2278
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1853,
+                        "endColumn": 120,
+                        "endOffset": 1969
+                    }
                 }
             },
             {
@@ -238,7 +359,14 @@
                     "endOffset": 2379
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 100,
+                        "endOffset": 2070
+                    }
                 }
             },
             {
@@ -251,7 +379,15 @@
                     "endOffset": 2526
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2075,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 2217
+                    }
                 }
             },
             {
@@ -264,7 +400,15 @@
                     "endOffset": 2667
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2222,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 2358
+                    }
                 }
             },
             {
@@ -276,7 +420,14 @@
                     "endOffset": 2770
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2363,
+                        "endColumn": 102,
+                        "endOffset": 2461
+                    }
                 }
             },
             {
@@ -288,7 +439,14 @@
                     "endOffset": 2889
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2466,
+                        "endColumn": 118,
+                        "endOffset": 2580
+                    }
                 }
             },
             {
@@ -300,7 +458,14 @@
                     "endOffset": 2996
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2585,
+                        "endColumn": 106,
+                        "endOffset": 2687
+                    }
                 }
             },
             {
@@ -312,7 +477,14 @@
                     "endOffset": 3099
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2692,
+                        "endColumn": 102,
+                        "endOffset": 2790
+                    }
                 }
             },
             {
@@ -325,7 +497,15 @@
                     "endOffset": 3254
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2945
+                    }
                 }
             },
             {
@@ -338,7 +518,15 @@
                     "endOffset": 3425
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2950,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 3116
+                    }
                 }
             },
             {
@@ -351,7 +539,15 @@
                     "endOffset": 3574
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3121,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 3265
+                    }
                 }
             },
             {
@@ -364,7 +560,15 @@
                     "endOffset": 3739
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 3270,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 3430
+                    }
                 }
             },
             {
@@ -377,7 +581,15 @@
                     "endOffset": 3896
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 3435,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 3587
+                    }
                 }
             },
             {
@@ -390,7 +602,15 @@
                     "endOffset": 4047
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 3592,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 3738
+                    }
                 }
             },
             {
@@ -402,7 +622,14 @@
                     "endOffset": 4166
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3743,
+                        "endColumn": 118,
+                        "endOffset": 3857
+                    }
                 }
             },
             {
@@ -415,7 +642,15 @@
                     "endOffset": 4538
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3862,
+                        "endLine": 47,
+                        "endColumn": 12,
+                        "endOffset": 4229
+                    }
                 }
             },
             {
@@ -428,7 +663,15 @@
                     "endOffset": 4687
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 4234,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 4378
+                    }
                 }
             },
             {
@@ -441,7 +684,15 @@
                     "endOffset": 4836
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 4383,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 4527
+                    }
                 }
             },
             {
@@ -453,7 +704,14 @@
                     "endOffset": 4948
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 4532,
+                        "endColumn": 111,
+                        "endOffset": 4639
+                    }
                 }
             },
             {
@@ -465,7 +723,14 @@
                     "endOffset": 5095
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 4644,
+                        "endColumn": 146,
+                        "endOffset": 4786
+                    }
                 }
             },
             {
@@ -478,7 +743,15 @@
                     "endOffset": 5248
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 4791,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 4939
+                    }
                 }
             },
             {
@@ -491,7 +764,15 @@
                     "endOffset": 5395
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4944,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 5086
+                    }
                 }
             },
             {
@@ -503,7 +784,14 @@
                     "endOffset": 5470
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 5091,
+                        "endColumn": 74,
+                        "endOffset": 5161
+                    }
                 }
             },
             {
@@ -515,7 +803,14 @@
                     "endOffset": 5559
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 5166,
+                        "endColumn": 88,
+                        "endOffset": 5250
+                    }
                 }
             },
             {
@@ -527,7 +822,14 @@
                     "endOffset": 5646
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 5255,
+                        "endColumn": 86,
+                        "endOffset": 5337
+                    }
                 }
             },
             {
@@ -539,7 +841,14 @@
                     "endOffset": 5747
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 5342,
+                        "endColumn": 100,
+                        "endOffset": 5438
+                    }
                 }
             },
             {
@@ -551,7 +860,14 @@
                     "endOffset": 5850
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 5443,
+                        "endColumn": 102,
+                        "endOffset": 5541
+                    }
                 }
             },
             {
@@ -561,565 +877,908 @@
                     "startOffset": 5855,
                     "endLine": 112,
                     "endColumn": 12,
-                    "endOffset": 8702
+                    "endOffset": 8918
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 5546,
+                        "endLine": 106,
+                        "endColumn": 12,
+                        "endOffset": 8609
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 8707,
+                    "startOffset": 8923,
                     "endLine": 115,
                     "endColumn": 12,
-                    "endOffset": 8888
+                    "endOffset": 9104
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 8614,
+                        "endLine": 109,
+                        "endColumn": 12,
+                        "endOffset": 8795
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 8893,
+                    "startOffset": 9109,
                     "endLine": 159,
                     "endColumn": 12,
-                    "endOffset": 11752
+                    "endOffset": 12184
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 8800,
+                        "endLine": 153,
+                        "endColumn": 12,
+                        "endOffset": 11875
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 160,
                     "startColumn": 4,
-                    "startOffset": 11757,
+                    "startOffset": 12189,
                     "endLine": 162,
                     "endColumn": 12,
-                    "endOffset": 11950
+                    "endOffset": 12382
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 11880,
+                        "endLine": 156,
+                        "endColumn": 12,
+                        "endOffset": 12073
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 11955,
+                    "startOffset": 12387,
                     "endLine": 165,
                     "endColumn": 12,
-                    "endOffset": 12150
+                    "endOffset": 12582
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 12078,
+                        "endLine": 159,
+                        "endColumn": 12,
+                        "endOffset": 12273
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 12155,
+                    "startOffset": 12587,
                     "endLine": 167,
                     "endColumn": 12,
-                    "endOffset": 12273
+                    "endOffset": 12705
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 12278,
+                        "endLine": 161,
+                        "endColumn": 12,
+                        "endOffset": 12396
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 12278,
+                    "startOffset": 12710,
                     "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 12396
+                    "endOffset": 12828
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 12401,
+                        "endLine": 163,
+                        "endColumn": 12,
+                        "endOffset": 12519
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 12401,
+                    "startOffset": 12833,
                     "endLine": 171,
                     "endColumn": 12,
-                    "endOffset": 12509
+                    "endOffset": 12941
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 12524,
+                        "endLine": 165,
+                        "endColumn": 12,
+                        "endOffset": 12632
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 12514,
+                    "startOffset": 12946,
                     "endLine": 174,
                     "endColumn": 12,
-                    "endOffset": 12692
+                    "endOffset": 13124
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 12637,
+                        "endLine": 168,
+                        "endColumn": 12,
+                        "endOffset": 12815
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 12697,
+                    "startOffset": 13129,
                     "endLine": 176,
                     "endColumn": 12,
-                    "endOffset": 12823
+                    "endOffset": 13255
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12820,
+                        "endLine": 170,
+                        "endColumn": 12,
+                        "endOffset": 12946
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 177,
                     "startColumn": 4,
-                    "startOffset": 12828,
+                    "startOffset": 13260,
                     "endLine": 179,
                     "endColumn": 12,
-                    "endOffset": 13024
+                    "endOffset": 13456
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 12951,
+                        "endLine": 173,
+                        "endColumn": 12,
+                        "endOffset": 13147
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 180,
                     "startColumn": 4,
-                    "startOffset": 13029,
+                    "startOffset": 13461,
                     "endColumn": 88,
-                    "endOffset": 13113
+                    "endOffset": 13545
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 13152,
+                        "endColumn": 88,
+                        "endOffset": 13236
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 13118,
+                    "startOffset": 13550,
                     "endColumn": 110,
-                    "endOffset": 13224
+                    "endOffset": 13656
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 13241,
+                        "endColumn": 110,
+                        "endOffset": 13347
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 13229,
+                    "startOffset": 13661,
                     "endLine": 184,
                     "endColumn": 12,
-                    "endOffset": 13457
+                    "endOffset": 13889
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 13352,
+                        "endLine": 178,
+                        "endColumn": 12,
+                        "endOffset": 13580
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 185,
                     "startColumn": 4,
-                    "startOffset": 13462,
+                    "startOffset": 13894,
                     "endColumn": 100,
-                    "endOffset": 13558
+                    "endOffset": 13990
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 13585,
+                        "endColumn": 100,
+                        "endOffset": 13681
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 13563,
+                    "startOffset": 13995,
                     "endColumn": 94,
-                    "endOffset": 13653
+                    "endOffset": 14085
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 13686,
+                        "endColumn": 94,
+                        "endOffset": 13776
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 187,
                     "startColumn": 4,
-                    "startOffset": 13658,
+                    "startOffset": 14090,
                     "endColumn": 122,
-                    "endOffset": 13776
+                    "endOffset": 14208
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 13781,
+                        "endColumn": 122,
+                        "endOffset": 13899
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 13781,
+                    "startOffset": 14213,
                     "endColumn": 128,
-                    "endOffset": 13905
+                    "endOffset": 14337
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 13904,
+                        "endColumn": 128,
+                        "endOffset": 14028
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 13910,
+                    "startOffset": 14342,
                     "endColumn": 116,
-                    "endOffset": 14022
+                    "endOffset": 14454
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 14033,
+                        "endColumn": 116,
+                        "endOffset": 14145
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 14027,
+                    "startOffset": 14459,
                     "endLine": 192,
                     "endColumn": 12,
-                    "endOffset": 14199
+                    "endOffset": 14631
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 14150,
+                        "endLine": 186,
+                        "endColumn": 12,
+                        "endOffset": 14322
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 14204,
+                    "startOffset": 14636,
                     "endColumn": 98,
-                    "endOffset": 14298
+                    "endOffset": 14730
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 14327,
+                        "endColumn": 98,
+                        "endOffset": 14421
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 14303,
+                    "startOffset": 14735,
                     "endLine": 195,
                     "endColumn": 12,
-                    "endOffset": 14433
+                    "endOffset": 14865
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 14426,
+                        "endLine": 189,
+                        "endColumn": 12,
+                        "endOffset": 14556
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 14438,
+                    "startOffset": 14870,
                     "endLine": 197,
                     "endColumn": 12,
-                    "endOffset": 14576
+                    "endOffset": 15008
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 14561,
+                        "endLine": 191,
+                        "endColumn": 12,
+                        "endOffset": 14699
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 14581,
+                    "startOffset": 15013,
                     "endLine": 199,
                     "endColumn": 12,
-                    "endOffset": 14711
+                    "endOffset": 15143
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 14704,
+                        "endLine": 193,
+                        "endColumn": 12,
+                        "endOffset": 14834
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 14716,
+                    "startOffset": 15148,
                     "endLine": 201,
                     "endColumn": 12,
-                    "endOffset": 14830
+                    "endOffset": 15262
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 14839,
+                        "endLine": 195,
+                        "endColumn": 12,
+                        "endOffset": 14953
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 202,
                     "startColumn": 4,
-                    "startOffset": 14835,
+                    "startOffset": 15267,
                     "endLine": 205,
                     "endColumn": 12,
-                    "endOffset": 15031
+                    "endOffset": 15463
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 14958,
+                        "endLine": 199,
+                        "endColumn": 12,
+                        "endOffset": 15154
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 15036,
+                    "startOffset": 15468,
                     "endLine": 207,
                     "endColumn": 12,
-                    "endOffset": 15150
+                    "endOffset": 15582
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 15159,
+                        "endLine": 201,
+                        "endColumn": 12,
+                        "endOffset": 15273
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 208,
                     "startColumn": 4,
-                    "startOffset": 15155,
+                    "startOffset": 15587,
                     "endColumn": 92,
-                    "endOffset": 15243
+                    "endOffset": 15675
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 15278,
+                        "endColumn": 92,
+                        "endOffset": 15366
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 209,
                     "startColumn": 4,
-                    "startOffset": 15248,
+                    "startOffset": 15680,
                     "endColumn": 110,
-                    "endOffset": 15354
+                    "endOffset": 15786
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 15371,
+                        "endColumn": 110,
+                        "endOffset": 15477
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 210,
                     "startColumn": 4,
-                    "startOffset": 15359,
+                    "startOffset": 15791,
                     "endColumn": 55,
-                    "endOffset": 15410
+                    "endOffset": 15842
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 15482,
+                        "endColumn": 55,
+                        "endOffset": 15533
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 15415,
+                    "startOffset": 15847,
                     "endLine": 212,
                     "endColumn": 12,
-                    "endOffset": 15517
+                    "endOffset": 15949
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 15538,
+                        "endLine": 206,
+                        "endColumn": 12,
+                        "endOffset": 15640
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 15522,
+                    "startOffset": 15954,
                     "endLine": 216,
                     "endColumn": 12,
-                    "endOffset": 15712
+                    "endOffset": 16144
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 15645,
+                        "endLine": 210,
+                        "endColumn": 12,
+                        "endOffset": 15835
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 15717,
+                    "startOffset": 16149,
                     "endLine": 218,
                     "endColumn": 12,
-                    "endOffset": 15823
+                    "endOffset": 16255
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 15840,
+                        "endLine": 212,
+                        "endColumn": 12,
+                        "endOffset": 15946
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 15828,
+                    "startOffset": 16260,
                     "endLine": 220,
                     "endColumn": 12,
-                    "endOffset": 15956
+                    "endOffset": 16388
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 4,
+                        "startOffset": 15951,
+                        "endLine": 214,
+                        "endColumn": 12,
+                        "endOffset": 16079
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 15961,
+                    "startOffset": 16393,
                     "endColumn": 94,
-                    "endOffset": 16051
+                    "endOffset": 16483
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 16084,
+                        "endColumn": 94,
+                        "endOffset": 16174
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 16056,
+                    "startOffset": 16488,
                     "endColumn": 90,
-                    "endOffset": 16142
+                    "endOffset": 16574
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 16179,
+                        "endColumn": 90,
+                        "endOffset": 16265
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 16147,
+                    "startOffset": 16579,
                     "endColumn": 90,
-                    "endOffset": 16233
+                    "endOffset": 16665
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 16270,
+                        "endColumn": 90,
+                        "endOffset": 16356
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 16238,
+                    "startOffset": 16670,
                     "endColumn": 116,
-                    "endOffset": 16350
+                    "endOffset": 16782
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 16361,
+                        "endColumn": 116,
+                        "endOffset": 16473
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 16355,
+                    "startOffset": 16787,
                     "endLine": 226,
                     "endColumn": 12,
-                    "endOffset": 16489
+                    "endOffset": 16921
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 16478,
+                        "endLine": 220,
+                        "endColumn": 12,
+                        "endOffset": 16612
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 16494,
+                    "startOffset": 16926,
                     "endLine": 236,
                     "endColumn": 12,
-                    "endOffset": 17002
+                    "endOffset": 17434
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 16617,
+                        "endLine": 230,
+                        "endColumn": 12,
+                        "endOffset": 17125
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 17007,
+                    "startOffset": 17439,
                     "endLine": 246,
                     "endColumn": 12,
-                    "endOffset": 17527
+                    "endOffset": 17959
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 17130,
+                        "endLine": 240,
+                        "endColumn": 12,
+                        "endOffset": 17650
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 17532,
+                    "startOffset": 17964,
                     "endLine": 256,
                     "endColumn": 12,
-                    "endOffset": 18150
+                    "endOffset": 18639
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 17655,
+                        "endLine": 250,
+                        "endColumn": 12,
+                        "endOffset": 18330
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 18155,
+                    "startOffset": 18644,
                     "endColumn": 56,
-                    "endOffset": 18207
+                    "endOffset": 18696
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 18335,
+                        "endColumn": 56,
+                        "endOffset": 18387
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 18212,
+                    "startOffset": 18701,
                     "endColumn": 57,
-                    "endOffset": 18265
+                    "endOffset": 18754
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 18392,
+                        "endColumn": 57,
+                        "endOffset": 18445
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 18270,
+                    "startOffset": 18759,
                     "endLine": 261,
                     "endColumn": 12,
-                    "endOffset": 18459
+                    "endOffset": 18948
                 },
                 "from": {
-                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/values-v21/values-v21.xml"
+                    "file": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 244
+                    }
                 }
             }
         ]

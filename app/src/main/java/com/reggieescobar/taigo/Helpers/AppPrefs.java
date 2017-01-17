@@ -33,7 +33,7 @@ public class AppPrefs {
      */
     public void initialize(Context context){
         //this.context = context;
-        prefs = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);
+        prefs = context.getSharedPreferences(Config.APP_PREF_NAME, Context.MODE_PRIVATE);
         editor = prefs.edit();
     }
 

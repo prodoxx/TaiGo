@@ -1,5 +1,6 @@
 package com.reggieescobar.taigo;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -10,6 +11,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -41,9 +43,11 @@ import com.mapbox.services.directions.v5.MapboxDirections;
 import com.mapbox.services.directions.v5.models.DirectionsResponse;
 import com.mapbox.services.directions.v5.models.DirectionsRoute;
 import com.reggieescobar.taigo.Helpers.Config;
+import com.reggieescobar.taigo.Helpers.TimeAgo;
 import com.reggieescobar.taigo.Models.Trip;
 import com.reggieescobar.taigo.Models.TripDriverTracker;
 import com.reggieescobar.taigo.Models.TripMarker;
+import com.reggieescobar.taigo.Models.TripStatus;
 
 import java.util.HashMap;
 import java.util.List;
@@ -67,11 +71,15 @@ public class TripActivity extends AppCompatActivity {
     private HashMap<Config.MarkerPinType, TripMarker> tripMarkers = new HashMap<>();
 
     private RelativeLayout mainStatusLayout;
+    private TextView mainStatusText;
     private LinearLayout tripInfoLayout;
     private TextView tripStatusText;
     private TextView driverLicenseText;
     private TextView tripFareText;
     private TextView tripDurationText;
+
+    private Button startTripButton;
+    private Button endTripButton;
 
 
    // private Boolean dataCalledAlready = false;
@@ -87,16 +95,18 @@ public class TripActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back_white_24dp);
 
-       toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+
+
+
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Trip");
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
             }
         });
-
-
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Trip");
 
         database = FirebaseDatabase.getInstance();
 
@@ -104,11 +114,15 @@ public class TripActivity extends AppCompatActivity {
         //Init some elements in the layout
 
         mainStatusLayout = (RelativeLayout) findViewById(R.id.main_status_layout);
+        mainStatusText = (TextView) findViewById(R.id.main_status_text);
         tripInfoLayout = (LinearLayout) findViewById(R.id.trip_info_layout);
         tripStatusText = (TextView) findViewById(R.id.trip_status_text);
         driverLicenseText = (TextView) findViewById(R.id.driver_license_text);
         tripFareText = (TextView) findViewById(R.id.trip_fare_text);
         tripDurationText = (TextView) findViewById(R.id.trip_duration_text);
+
+        startTripButton = (Button) findViewById(R.id.start_trip_button);
+        endTripButton = (Button) findViewById(R.id.end_trip_button);
 
 
 
@@ -227,10 +241,50 @@ public class TripActivity extends AppCompatActivity {
 
 
 
-                        // TODO - Show Trip Data
+                        if(TripStatus.getTripStatusCode(TripActivity.this, currentTrip) == TripStatus.TripStatusCode.AWAITING_DRIVER_PICKUP
+                            || TripStatus.getTripStatusCode(TripActivity.this, currentTrip) == TripStatus.TripStatusCode.DRIVER_CONFIRMED_PICKUP
+                        ) {
 
-                        driverLicenseText.setText(currentTrip.driverID);
+                            mainStatusText.setText(TripStatus.getTripStatusText(TripActivity.this, currentTrip));
+                            tripInfoLayout.setVisibility(View.GONE);
+                            mainStatusLayout.setVisibility(View.VISIBLE); // show the main status layout
 
+
+
+                            if(TripStatus.getTripStatusCode(TripActivity.this, currentTrip) == TripStatus.TripStatusCode.DRIVER_CONFIRMED_PICKUP){
+                                startTripButton.setVisibility(View.VISIBLE);
+                            }
+
+
+
+                        } else {
+                            mainStatusLayout.setVisibility(View.GONE); // show the main status layout
+                            startTripButton.setVisibility(View.GONE);
+                            tripInfoLayout.setVisibility(View.VISIBLE);
+
+                            driverLicenseText.setText(currentTrip.driverID);
+                            tripStatusText.setText(TripStatus.getTripStatusText(TripActivity.this, currentTrip));
+
+
+
+                            if(TripStatus.getTripStatusCode(TripActivity.this, currentTrip) == TripStatus.TripStatusCode.DRIVER_CONFIRMED_DROUPOUT){
+                                endTripButton.setVisibility(View.VISIBLE);
+
+                                tripFareText.setText(Double.toString(currentTrip.fareAmount) + "NTD");
+                                tripDurationText.setText(TimeAgo.toDuration(currentTrip.completedTime - currentTrip.pickUpTime));
+
+                            } else if (TripStatus.getTripStatusCode(TripActivity.this, currentTrip) == TripStatus.TripStatusCode.TRIP_HAS_ENDED){
+                                endTripButton.setVisibility(View.GONE);
+
+                                tripFareText.setText(Double.toString(currentTrip.fareAmount) + "NTD");
+                                tripDurationText.setText(TimeAgo.toDuration(currentTrip.completedTime - currentTrip.pickUpTime));
+                            } else {
+                                endTripButton.setVisibility(View.GONE);
+                                startTripButton.setVisibility(View.GONE);
+                            }
+
+
+                        }
 
 
 
@@ -351,9 +405,77 @@ public class TripActivity extends AppCompatActivity {
 
             }
 
+            final DatabaseReference tripRef = database.getReference(Config.TRIPS_REF + tripID);
+
+            //we assume all the data has been gotten already.
+            startTripButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    final ProgressDialog dialog = ProgressDialog.show(TripActivity.this, "",
+                            "Starting Trip...", true);
+
+                    HashMap<String,Object> startTripData = new HashMap<>();
+                    startTripData.put("isPassengerStartTrip", true);
+
+                    tripRef.updateChildren(startTripData, new DatabaseReference.CompletionListener() {
+                        @Override
+                        public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+                            if(databaseError == null){
+                                // no error
+
+                                dialog.hide();
+
+
+                            } else {
+                                // some error happened
+
+                                Log.v(Config.APPTAG, databaseError.getMessage());
+                            }
+                        }
+                    });
+
+
+
+                }
+            });
+
+            //we assume all the data has been gotten already.
+            endTripButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    final ProgressDialog dialog = ProgressDialog.show(TripActivity.this, "",
+                            "Ending Trip...", true);
+
+                    HashMap<String,Object> endTripData = new HashMap<>();
+                    endTripData.put("isPassengerEndTrip", true);
+
+                    tripRef.updateChildren(endTripData, new DatabaseReference.CompletionListener() {
+                        @Override
+                        public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+                            if(databaseError == null){
+                                // no error
+
+                                dialog.hide();
+
+
+                            } else {
+                                // some error happened
+
+                                Log.v(Config.APPTAG, databaseError.getMessage());
+                            }
+                        }
+                    });
+
+
+
+                }
+            });
+
+
 
         }
 
+        //Catch Exception if no tripID was passed from the intent
         catch (Exception e){
             e.printStackTrace();
         }

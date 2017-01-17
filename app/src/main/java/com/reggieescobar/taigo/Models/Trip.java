@@ -15,10 +15,7 @@ public class Trip {
     public long timeAccepted;
     public long pickUpTime;
     public long completedTime;
-    public int estimatedFareAmount;
     public int fareAmount;
-    public double estimatedDuration;
-    public double distance;
     public boolean isDriverStartTrip;
     public boolean isPassengerStartTrip;
     public boolean isDriverEndTrip;

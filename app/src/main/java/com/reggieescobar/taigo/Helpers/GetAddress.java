@@ -16,7 +16,7 @@ import com.reggieescobar.taigo.Models.MyAddress;
 import com.reggieescobar.taigo.R;
 
 /**
- * Created by rescobar on 03/05/2016.
+ * Created by rescobar on 03/12/2016.
  */
 public class GetAddress extends AsyncTask<String, Integer, Boolean> {
     private Context context;

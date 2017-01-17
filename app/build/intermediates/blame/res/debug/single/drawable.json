@@ -1,15 +1,19 @@
 [
     {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/logo.png",
-        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/logo.png"
-    },
-    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/secondary_marker.png",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/secondary_marker.png"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/logo.png"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
@@ -40,20 +44,28 @@
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/drawable/design_fab_background.xml"
     },
     {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/primary_marker.png",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/primary_marker.png"
     },
     {
-        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -72,6 +84,10 @@
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/list_item_ripple.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/list_item_ripple.xml"
+    },
+    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
@@ -86,6 +102,10 @@
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/bg_default_selector.xml",
@@ -108,6 +128,10 @@
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_tab_indicator_material.xml"
     },
     {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -120,6 +144,10 @@
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/drawable/design_ic_visibility.xml"
     },
     {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ratingbar_small_material.xml"
     },
@@ -128,12 +156,12 @@
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/orange_border_bottom.xml"
     },
     {
-        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/profile.jpg",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/profile.jpg"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
@@ -142,6 +170,10 @@
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/box_round_corners.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/src/main/res/drawable/box_round_corners.xml"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
@@ -190,6 +222,10 @@
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/prodoxx/Documents/AndroidProjects/TaiGo/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",

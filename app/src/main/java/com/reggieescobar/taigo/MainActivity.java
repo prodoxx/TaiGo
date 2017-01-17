@@ -5,11 +5,11 @@ import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.location.Address;
 import android.location.Location;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -22,22 +22,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.geofire.GeoFire;
+import com.firebase.geofire.GeoLocation;
+import com.firebase.geofire.GeoQuery;
+import com.firebase.geofire.GeoQueryEventListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.mapbox.geocoder.GeocoderCriteria;
-import com.mapbox.geocoder.MapboxGeocoder;
-import com.mapbox.geocoder.android.AndroidGeocoder;
-import com.mapbox.geocoder.service.models.GeocoderResponse;
+import com.google.firebase.database.ValueEventListener;
 import com.mapbox.mapboxsdk.MapboxAccountManager;
 import com.mapbox.mapboxsdk.annotations.Icon;
 import com.mapbox.mapboxsdk.annotations.IconFactory;
@@ -53,6 +56,7 @@ import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 
 
 import com.reggieescobar.taigo.Dialogs.DriverFoundDialog;
+import com.reggieescobar.taigo.Helpers.AppPrefs;
 import com.reggieescobar.taigo.Helpers.AppResultListener;
 import com.reggieescobar.taigo.Helpers.Config;
 import com.reggieescobar.taigo.Helpers.FireBasePushIdGenerator;
@@ -64,13 +68,6 @@ import com.reggieescobar.taigo.Models.TripMarker;
 import java.util.HashMap;
 
 
-import com.mapbox.mapboxsdk.MapboxAccountManager;
-import com.mapbox.mapboxsdk.annotations.MarkerOptions;
-import com.mapbox.mapboxsdk.annotations.PolylineOptions;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 import com.mapbox.services.Constants;
 import com.mapbox.services.commons.ServicesException;
 import com.mapbox.services.commons.geojson.LineString;
@@ -79,6 +76,7 @@ import com.mapbox.services.directions.v5.DirectionsCriteria;
 import com.mapbox.services.directions.v5.MapboxDirections;
 import com.mapbox.services.directions.v5.models.DirectionsResponse;
 import com.mapbox.services.directions.v5.models.DirectionsRoute;
+import com.reggieescobar.taigo.Models.User;
 
 import java.util.List;
 
@@ -114,15 +112,63 @@ public class MainActivity extends AppCompatActivity
     private TextView tripFareEstimateText;
     private TextView tripDistanceText;
 
+    private RelativeLayout tripEstimateInfoLayout;
+
     private DirectionsRoute currentRoute;
 
     // Write a message to the database
     FirebaseDatabase database;
 
+    private String UID;
+    private FirebaseAuth mAuth;
+    private FirebaseAuth.AuthStateListener mAuthListener;
 
+    private DatabaseReference driverBroadCastingRef;
+
+    private GeoFire driverBroadcastingGeoFire;
+    private GeoQuery driversGeoQuery;
+
+
+    private DatabaseReference tripRequestBroadcastingRef;
+    private GeoFire tripRequestBroadcastingGeoFire;
+
+
+    private HashMap<String, GeoLocation> nearByDriverLocations = new HashMap<>();
+
+
+    private RelativeLayout amountDriverLayout;
+    private TextView amountDriverText;
+
+    AppPrefs myPrefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //Lets Check if the user has a session.
+        myPrefs = AppPrefs.getInstance();
+        myPrefs.initialize(MainActivity.this);
+
+
+
+
+        UID = myPrefs.getStringPrefValue(Config.PREF_UID, "");
+
+        if(UID.equals("")){
+            //go to login activity
+
+            Log.v(Config.APPTAG, "UID NOT SET");
+
+            Intent i = new Intent(MainActivity.this, LoginActivity.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(i);
+
+
+
+        }
+
+
+
         super.onCreate(savedInstanceState);
 
         //Declare Map Access Token
@@ -139,7 +185,91 @@ public class MainActivity extends AppCompatActivity
         //getSupportActionBar().setTitle("Drivers");
 
 
+
+        mAuth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
+
+
+        driverBroadCastingRef = database.getReference(Config.DRIVERS_BROADCASTING_REF);
+        driverBroadcastingGeoFire = new GeoFire(driverBroadCastingRef);
+
+        tripRequestBroadcastingRef = database.getReference(Config.TRIP_REQUEST_BROADCASTING_REF);
+        tripRequestBroadcastingGeoFire = new GeoFire(tripRequestBroadcastingRef);
+
+
+
+
+        //we should probably authenticate here...
+        mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+                    // User is signed in
+                    Log.d(Config.APPTAG, "onAuthStateChanged:signed_in:" + user.getUid());
+
+                    myPrefs.setStringPrefValue(Config.PREF_UID, user.getUid());
+
+
+                    DatabaseReference ref = database.getReference(Config.PASSENGERS_REF + user.getUid());
+
+                    ref.addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            HashMap<String,String> data = (HashMap<String,String>) dataSnapshot.getValue();
+
+                            User.getInstance().setFirstName(data.get("fistName"));
+                            User.getInstance().setLastName(data.get("lastName"));
+
+                            User.getInstance().setEmail(data.get("email"));
+                            User.getInstance().setAccountType(data.get("accountType"));
+                            User.getInstance().setUid(data.get("uid"));
+
+
+                            if(data.get("licenseNumber") != null){
+                                User.getInstance().setLicenseNum(data.get("licenseNumber"));
+                            }
+
+
+                            Log.v(Config.APPTAG, data.toString());
+
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+
+
+
+
+
+
+                } else {
+                    // User is signed out
+                    Log.d(Config.APPTAG, "onAuthStateChanged:signed_out");
+                    myPrefs.removePrefValue(Config.PREF_UID);
+
+                    Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                    i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(i);
+
+                }
+
+            }
+        };
+
+
+
+
+
+
+
+
+
+
 
 
         //Setting up Mapbox MapView on Layout
@@ -183,17 +313,12 @@ public class MainActivity extends AppCompatActivity
         tripFareEstimateText = (TextView) findViewById(R.id.trip_fare_estimate);
         tripDistanceText = (TextView) findViewById(R.id.trip_distance_text);
 
-        Button button2 = (Button) findViewById(R.id.button2);
+        tripEstimateInfoLayout = (RelativeLayout) findViewById(R.id.trip_estimate_info_layout);
 
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, TripActivity.class);
-                i.putExtra("tripID", "-K_cIWde0ysh7dfFVDXS");
+        amountDriverLayout = (RelativeLayout) findViewById(R.id.amount_driver_layout);
 
-                startActivity(i);
-            }
-        });
+        amountDriverText = (TextView) findViewById(R.id.amount_driver_text);
+
 
 
 
@@ -289,6 +414,8 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Pickup Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
+
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
                                         TripMarker dest = tripMarkers.get(Config.MarkerPinType.DESTINATION);
@@ -322,6 +449,7 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Pickup Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
 
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
@@ -399,7 +527,7 @@ public class MainActivity extends AppCompatActivity
                                         pickUpAddressText.setText(myAddress);
 
                                         Toast.makeText(MainActivity.this,"Pickup Selected.", Toast.LENGTH_SHORT).show();
-
+                                        selectPointMarker.setVisibility(View.GONE);
 
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
@@ -410,6 +538,8 @@ public class MainActivity extends AppCompatActivity
 
                                             Position origin = Position.fromCoordinates(pickup.getLng(), pickup.getLat() );
                                             Position destination = Position.fromCoordinates(dest.getLng(), dest.getLat());
+
+
 
                                             // Get route from API
                                             try {
@@ -433,6 +563,7 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Pickup Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
                                         TripMarker dest = tripMarkers.get(Config.MarkerPinType.DESTINATION);
@@ -517,6 +648,7 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Destination Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
 
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
@@ -548,6 +680,7 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Destination Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
 
                                         destAddressText.setText(myAddress);
 
@@ -623,6 +756,7 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Destination Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
                                         TripMarker dest = tripMarkers.get(Config.MarkerPinType.DESTINATION);
@@ -655,6 +789,7 @@ public class MainActivity extends AppCompatActivity
 
                                         Toast.makeText(MainActivity.this,"Destination Selected.", Toast.LENGTH_SHORT).show();
 
+                                        selectPointMarker.setVisibility(View.GONE);
 
                                         TripMarker pickup = tripMarkers.get(Config.MarkerPinType.PICKUP);
                                         TripMarker dest = tripMarkers.get(Config.MarkerPinType.DESTINATION);
@@ -708,11 +843,9 @@ public class MainActivity extends AppCompatActivity
                     myTrip.destinationInfo.lng = dest.getLng();
 
                     myTrip.timeCreated = System.currentTimeMillis();
-                    myTrip.distance = currentRoute.getDistance();
-                    myTrip.estimatedDuration = currentRoute.getDuration();
-                    myTrip.estimatedFareAmount = Config.calculateFareEstimate(currentRoute.getDistance());
 
-                    myTrip.uid = "-ddd"; //TODO - Get this from authenticated user.
+
+                    myTrip.uid = UID; //TODO - Get this from authenticated user.
                     myTrip.driverID = "";
                     myTrip.completedTime = 0;
                     myTrip.timeAccepted = 0;
@@ -737,15 +870,24 @@ public class MainActivity extends AppCompatActivity
                         public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
                             if(databaseError == null){
                                 //no error
-                                Toast.makeText(MainActivity.this,"Trip as been recorded", Toast.LENGTH_SHORT).show();
 
-                                DatabaseReference userTrip = database.getReference(Config.USER_TRIPS_REF + "-ddd/" + myTrip.tripID); // TODO - Replace with real UID
+
+                                DatabaseReference passengerTrip = database.getReference(Config.PASSENGER_TRIPS_REF + UID + "/" + myTrip.tripID); // TODO - Replace with real UID
 
                                 HashMap<String, String> data = new HashMap<String, String>();
-                                data.put("uid", "-ddd"); //TODO - Replace with real UID
+                                data.put("uid", UID); //TODO - Replace with real UID
                                 data.put("tripID", myTrip.tripID);
 
-                                userTrip.setValue(data);
+                                passengerTrip.setValue(data);
+
+
+                                tripRequestBroadcastingGeoFire.setLocation(myTrip.tripID,
+                                        new GeoLocation(myTrip.pickUpInfo.lat, myTrip.pickUpInfo.lng), new GeoFire.CompletionListener() {
+                                    @Override
+                                    public void onComplete(String key, DatabaseError error) {
+                                        Toast.makeText(MainActivity.this,"Requesting Driver...", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
 
 
                             } else {
@@ -779,7 +921,7 @@ public class MainActivity extends AppCompatActivity
 
                                 FragmentManager fm = getSupportFragmentManager();
                                 DriverFoundDialog myDialog = DriverFoundDialog.newInstance(myTrip.tripID, driverID);
-                                myDialog.setCancelable(false);
+                                //myDialog.setCancelable(false);
                                 myDialog.show(fm, "driver_found_dialog");
 
 
@@ -810,9 +952,6 @@ public class MainActivity extends AppCompatActivity
 
 
 
-
-
-
                 }
 
 
@@ -822,8 +961,81 @@ public class MainActivity extends AppCompatActivity
 
 
 
+        listenToNearByDrivers(); //LISTEN TO NEARBY DRIVERS
 
 
+
+    }
+
+
+
+    public void listenToNearByDrivers(){
+       mapView.getMapAsync(new OnMapReadyCallback() {
+           @Override
+           public void onMapReady(MapboxMap mapboxMap) {
+               userLocation = mapboxMap.getMyLocation();
+
+               double lat = userLocation.getLatitude();
+               double lng = userLocation.getLongitude();
+
+              driversGeoQuery =  driverBroadcastingGeoFire.queryAtLocation(new GeoLocation(lat,lng), Config.AREA_RADIUS);
+
+
+
+               mapboxMap.setOnMyLocationChangeListener(new MapboxMap.OnMyLocationChangeListener() {
+                   @Override
+                   public void onMyLocationChange(@Nullable Location location) {
+
+                       userLocation = location;
+
+                       double lat = location.getLatitude();
+                       double lng = location.getLongitude();
+
+                       driversGeoQuery.setLocation(new GeoLocation(lat,lng), Config.AREA_RADIUS);
+                   }
+               });
+
+
+
+
+               driversGeoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
+                   @Override
+                   public void onKeyEntered(String key, GeoLocation location) {
+                       nearByDriverLocations.put(key, location);
+                       amountDriverText.setText(Integer.toString(nearByDriverLocations.size()) + " Driver(s)");
+
+
+                   }
+
+                   @Override
+                   public void onKeyExited(String key) {
+                       nearByDriverLocations.remove(key);
+                       amountDriverText.setText(Integer.toString(nearByDriverLocations.size()) + " Driver(s)");
+                   }
+
+                   @Override
+                   public void onKeyMoved(String key, GeoLocation location) {
+                       nearByDriverLocations.put(key, location);
+                       amountDriverText.setText(Integer.toString(nearByDriverLocations.size()) + " Driver(s)");
+                   }
+
+                   @Override
+                   public void onGeoQueryReady() {
+                        Log.v(Config.APPTAG, "GeoQuery Ready!");
+                       amountDriverText.setText("0 Driver(s)");
+                   }
+
+                   @Override
+                   public void onGeoQueryError(DatabaseError error) {
+                        Log.v(Config.APPTAG, error.getMessage());
+                   }
+               });
+
+
+
+
+           }
+       });
     }
 
     public void changeMarkerAction(Config.MarkerPinType pinType){
@@ -892,6 +1104,8 @@ public class MainActivity extends AppCompatActivity
                 drawRoute(currentRoute);
                 setTripInfoLabels(currentRoute);
 
+                amountDriverLayout.setVisibility(View.GONE);
+
 
 
 
@@ -912,6 +1126,8 @@ public class MainActivity extends AppCompatActivity
         double distanceInKm =   Math.round((route.getDistance() * 0.001) * 100.0) / 100.0;
         tripDistanceText.setText(Double.toString(distanceInKm) + "km");
         tripFareEstimateText.setText(Integer.toString(fareEstimate) + "NTD");
+
+        tripEstimateInfoLayout.setVisibility(View.VISIBLE);
     }
 
     private void drawRoute(DirectionsRoute route) {
@@ -953,6 +1169,50 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+
+    public void reset(){
+        tripMarkers = new HashMap<>();
+        fabBtnLayout.setVisibility(View.GONE);
+        pickUpAddressText.setText("");
+        destAddressText.setText("");
+
+        pickUpAddressText.setHint(getResources().getString(R.string.select_pickup_location_text));
+        destAddressText.setHint(getResources().getString(R.string.select_destination_location_text));
+
+        pinActionMessage.setText(getResources().getString(R.string.get_a_ride_message));
+        tripEstimateInfoLayout.setVisibility(View.GONE);
+        tripDistanceText.setText("");
+
+        selectPointMarker.setVisibility(View.GONE);
+
+        amountDriverLayout.setVisibility(View.VISIBLE);
+
+
+        mapView.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(MapboxMap mapboxMap) {
+                mapboxMap.removeAnnotations();
+
+                if(routeLine != null){
+                    mapboxMap.removePolyline(routeLine);
+
+                    routeLine = null;
+                }
+            }
+        });
+
+
+
+
+
+
+    }
+
+
+
+
+
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -980,7 +1240,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_reset) {
+
+            reset();
+
             return true;
         }
 
@@ -993,19 +1256,22 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.my_trips_menu_item) {
 
-        } else if (id == R.id.nav_slideshow) {
+            Intent i = new Intent(MainActivity.this, MyTripsActivity.class);
 
-        } else if (id == R.id.nav_manage) {
+            startActivity(i);
 
-        } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+
+
+        } else if (id == R.id.about_menu_item) {
+            Intent i = new Intent(MainActivity.this, AboutActivity.class);
+
+            startActivity(i);
 
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -1014,7 +1280,21 @@ public class MainActivity extends AppCompatActivity
 
 
 
+    @Override
+    protected  void onStart(){
+        super.onStart();
+        mAuth.addAuthStateListener(mAuthListener);
 
+
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        if (mAuthListener != null) {
+            mAuth.removeAuthStateListener(mAuthListener);
+        }
+    }
 
     @Override
     protected  void onResume(){

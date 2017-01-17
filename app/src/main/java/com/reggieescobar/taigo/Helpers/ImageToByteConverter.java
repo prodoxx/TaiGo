@@ -1,4 +1,4 @@
-package lcom.reggieescobar.taigo.Helpers;
+package com.reggieescobar.taigo.Helpers;
 
 import android.content.Context;
 import android.graphics.Bitmap;

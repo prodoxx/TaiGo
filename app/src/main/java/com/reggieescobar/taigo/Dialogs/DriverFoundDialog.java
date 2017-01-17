@@ -1,6 +1,7 @@
 package com.reggieescobar.taigo.Dialogs;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -11,10 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
 
 import com.reggieescobar.taigo.Helpers.Config;
 import com.reggieescobar.taigo.MainActivity;
 import com.reggieescobar.taigo.R;
+import com.reggieescobar.taigo.TripActivity;
 
 /**
  * Created by prodoxx on 03/01/17.
@@ -25,6 +28,7 @@ public class DriverFoundDialog extends DialogFragment {
     private MainActivity parentActivity;
     private String driverID;
     private String tripID;
+    private Button viewTripButton;
 
     public DriverFoundDialog(){
 
@@ -56,6 +60,25 @@ public class DriverFoundDialog extends DialogFragment {
         View view = inflater.inflate(R.layout.dialog_driver_found, container, false);
 
         getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+        viewTripButton  = (Button)view.findViewById(R.id.view_trip_btn);
+
+
+        viewTripButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(parentActivity, TripActivity.class);
+                i.putExtra("tripID", tripID);
+
+
+
+
+                parentActivity.startActivity(i);
+            }
+        });
+
+
+
 
         return view;
     }
